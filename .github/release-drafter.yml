@@ -1,22 +1,15 @@
 name-template: 'v$NEXT_PATCH_VERSION'
 tag-template: 'v$NEXT_PATCH_VERSION'
 categories:
-  - title: 'Breaking change'
-    labels:
-      - 'Breaking Change'
   - title: 'Features'
     labels:
       - 'feature'
-      - 'enhancement'
-  - title: 'Fixes'
+  - title: 'Bug Fixes'
     labels:
-      - 'bug'
-  - title: 'Dependencies'
+      - 'fix'
+  - title: 'Maintenance'
     labels:
-      - 'dependencies'
-  - title: 'Refactor'
-    labels:
-      - 'refactor'
+      - 'chore'
 change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 template: |
   ## Changes
