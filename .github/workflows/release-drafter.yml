@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+    types:
+      - closed
 
 jobs:
   update_release_draft:
